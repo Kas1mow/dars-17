@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 85px;
+}
+header {
+  background-image: url(img/img1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 653px;
+}
+
+.tepa-tomon .coco1 img {
+  height: 80px;
+  margin-top: 5px;
+}
+.ikkinchi-button button {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  background-color: rgb(250, 25, 25);
+}
+.birinchi-button button {
+  background: transparent;
+  border: 2px solid grey;
+  backdrop-filter: blur(3px);
+  border-radius: 5px;
+  color: white;
+  padding: 4px 20px;
+  text-align: center;
+  margin-right: 30px;
+}
+.tepa-tomon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.coco2 {
+  display: flex;
+}
+.past-tomon {
+  text-align: center;
+  margin-top: 190px;
+}
+.past-tomon .h1 {
+  font-size: 23px;
+}
+.past-tomon .p1 {
+  font-size: 23px;
+  margin: 10px 0 10px;
+}
+.past-tomon .p2 {
+  font-size: 20px;
+  margin: 5px 0 15px;
+}
+
+.input {
+  margin: 0 5px 0 0;
+  padding: 15px 170px 15px 10px;
+  font-size: 15px;
+  color: #ffff;
+  background-color: rgba(12, 12, 12, 0.5);
+  border: none;
+  border: 1px solid rgb(117, 115, 115);
+  backdrop-filter: blur(2px);
+  border-radius: 5px;
+}
+.input-button {
+  padding: 6px 50px 11px 30px;
+  background-color: rgb(240, 19, 19);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+hr {
+  border: 4px solid rgb(46, 45, 45);
+}
+main {
+  color: #ffff;
+  background: #000;
+}
+.birinchi-bolim {
+  display: flex;
+  justify-content: space-between;
+}
+.birinchi-bolim-chap-tomoni img {
+  margin: 40px 0 40px;
+}
+.birinchi-bolim-ong-tomoni h1 {
+  margin-top: 115px;
+  font-size: 50px;
+}
+.birinchi-bolim-ong-tomoni h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+.ikkinchi-bolim {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ikkinchi-bolim-ong-tomon img {
+  margin: 50px 0 50px;
+}
+.ikkinchi-bolim-chap-tomon h1 {
+  font-size: 45px;
+}
+.ikkinchi-bolim-chap-tomon p {
+  font-size: 20px;
+  font-weight: 300;
+}
+.uchinchi-bolim {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.uchinchi-bolim-chap-tomon img {
+  margin: 50px 0 50px;
+}
+.uchinchi-bolim-ong-tomon h1 {
+  font-size: 45px;
+}
+.uchinchi-bolim-ong-tomon p {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.beshinchi-bolim {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.beshinchi-bolim-ong-tomon img {
+  margin: 50px 0 50px;
+}
+.beshinchi-bolim-chap-tomon h1 {
+  font-size: 45px;
+}
+.beshinchi-bolim-chap-tomon p {
+  font-size: 25px;
+  font-weight: 300;
+}
+.songi-bolim1 {
+  font-size: 20px;
+  text-align: center;
+  margin: 100px 0 10px;
+}
+
+.songi-bolim2 div {
+  background-color: rgb(63, 62, 62);
+  margin-top: 15px;
+}
+.songi-bolim2 div:hover {
+  background-color: rgb(112, 110, 112);
+  transition: 0.4s;
+}
+.songi-bolim2 p {
+  font-size: 25px;
+  font-weight: 300;
+  margin-left: 10px;
+}
+.songi-bolim2 img {
+  margin-left: 1000px;
+  height: 30px;
+}
+.songi-bolim3 {
+  margin: 60px 0 10px;
+  text-align: center;
+}
+.songi-bolim4 {
+  margin: 15px 0 100px;
+  text-align: center;
+}
+footer {
+  background: #000;
+  color: #a0a0a0;
+}
+.img-translate {
+  height: 15px;
+}
+.img-strelka {
+  height: 10px;
+}
+.bolimlarr button {
+  margin: 20px 0 30px;
+}
+.bolim1 a {
+  color: #a0a0a0;
+  font-size: 13px;
+  margin-top: 15px;
+}
+.bolim2 a {
+  color: #a0a0a0;
+  font-size: 13px;
+  margin-top: 15px;
+}
+.bolim3 a {
+  color: #a0a0a0;
+  font-size: 13px;
+  margin-top: 15px;
+}
+.bolim4 a {
+  color: #a0a0a0;
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.bolimlarr {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 50px 0 50px;
+}
+.bolim1 {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+}
+.bolim2 {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+}
+.bolim3 {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+}
+.bolim4 {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+}
+@media (max-width: 935px) {
+  .birinchi-bolim{
+    flex-wrap: wrap;
+  }
+  .birinchi-bolim-ong-tomoni h1{
+    font-size: 25px;
+  }
+  .birinchi-bolim-ong-tomoni h3{
+    font-size: 15px;
+  }
+  .ikkinchi-bolim{
+    flex-wrap: wrap;
+    margin: 100px 0 100px;
+  }
+  .ikkinchi-bolim-ong-tomoni h1{
+    font-size: 25px;
+  }
+  .ikkinchi-bolim-ong-tomoni h3{
+    font-size: 15px;
+  }
+  .uchinchi-bolim{
+    flex-wrap: wrap;
+    margin: 100px 0 100px;
+  }
+  .uchinchi-bolim-ong-tomoni h1{
+    font-size: 20px;
+  }
+  .uchinchi-bolim-ong-tomoni h3{
+    font-size: 15px;
+  }
+  .beshinchi-bolim{
+    flex-wrap: wrap;
+    margin: 100px 0 100px;
+  }
+  .beshinchi-bolim-ong-tomoni h1{
+    font-size: 20px;
+  }
+  .beshinchi-bolim-ong-tomoni h3{
+    font-size: 15px;
+  }
+  
+
+}
+
